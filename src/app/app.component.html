@@ -1,0 +1,19 @@
+<div *ngIf='dataLoaded'>
+    <div class='title'>{{data.title}}</div>
+    <section class='questionSection'>
+        <img class="speaker-img" src="assets/images/speaker_icon.png"/><div style="display: inline-block">{{data.directions}}</div>
+        <div class="questionHolder" [innerHTML]='currentQuestions.questions[currentIndex].text'></div>
+        <div>
+            <img [src]="vaultImage" style="float: left; width: 40%">
+            <div class="optionHolder">
+                <ul>
+                    <li class='answers' [ngClass] = "{'selected': isSelected[i]}" *ngFor="let options of currentQuestions.questions[currentIndex].answers; let i = index" (click)="setAnswers(options, i)">{{options}}</li>
+                </ul>
+                <div class="control-holder">
+                    <button>Reset</button>
+                    <button [disabled]='disableOk' (click)='checkAnswers()'>Ok</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

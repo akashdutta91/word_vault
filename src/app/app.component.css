@@ -1,0 +1,46 @@
+.questionSection{ 
+    font-size: 24px;
+}
+p {
+    background-color: white;
+}
+.answers {
+    list-style: none;
+    background-color: gray;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 7px;
+}
+.selected {
+    background-color: yellow;
+}
+.title{
+    font-size: 26px;
+	background-color: lightgray;
+	border-radius: 5px;
+	padding: 5px;
+}
+.optionHolder{
+    width: 40%;
+    display: inline-block;
+    margin-top: 50px;
+}
+.control-holder {
+    float: right;
+}
+.control-holder > button{
+    background-color: turquoise;
+    height: 30px;
+    border-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+.instruction-holder{
+    padding-left:10px;
+}
+.speaker-img {
+    margin-left: 10px;
+    margin-right:10px;
+}

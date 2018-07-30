@@ -1,0 +1,119 @@
+{
+   "title": "Vocabulary",
+   "directions": "Read each sentence. Choose the vocabulary word that best completes the sentence.",
+   "directionsAudio": "dl_vocabulary_completes_sentence_2.mp3",
+   "sfxPool": {
+      "@value": "pool1"
+   },
+   "vaultImage": "photo_ring.jpg",
+   "rounds": {
+      "round1": {
+         "questions": [
+            {
+               "text": "<p>The little lost sheep are in ______!<\/p>",
+               "answers": [
+                  "partner",
+                  "special",
+                  "danger",
+                  "splendid"
+               ],
+               "correctAnswer": "3",
+               "startIndex": 1,
+               "endIndex" : 46
+            },
+            {
+               "text": "<p>Meg is my ______ in math.<\/p>",
+               "answers": [
+                  "danger",
+                  "partner",
+                  "splendid",
+                  "special"
+               ],
+               "correctAnswer": "2",
+               "startIndex": 93,
+               "endIndex" : 138
+            }
+         ]
+      },
+      "round2": {
+         "questions": [
+            {
+               "text": "<p>The queen lives in a ______ castle.<\/p>",
+               "answers": [
+                  "partner",
+                  "splendid",
+                  "danger",
+                  "special"
+               ],
+               "correctAnswer": "2",
+               "startIndex": 139,
+               "endIndex" : 184
+            },
+            {
+               "text": "<p>My _______ and I will work together as a team.<\/p>",
+               "answers": [
+                  "special",
+                  "danger",
+                  "partner",
+                  "splendid"
+               ],
+               "correctAnswer": "3",
+               "startIndex": 185,
+               "endIndex" : 230
+            },
+            {
+               "text": "<p>This hat is _____ because Gran gave it to me.<\/p>",
+               "answers": [
+                  "danger",
+                  "partner",
+                  "special",
+                  "splendid"
+               ],
+               "correctAnswer": "3",
+               "startIndex": 231,
+               "endIndex" : 276
+            }
+         ]
+      },
+      "round3": {
+         "questions": [
+            {
+               "text": "<p>Small fish may face ______ in the big sea.<\/p>",
+               "answers": [
+                  "splendid",
+                  "special",
+                  "danger",
+                  "partner"
+               ],
+               "correctAnswer": "3",
+               "startIndex": 277,
+               "endIndex" : 322
+            },
+            {
+               "text": "<p>I thanked my host for a _____ meal.<\/p>",
+               "answers": [
+                  "splendid",
+                  "danger",
+                  "special",
+                  "partner"
+               ],
+               "correctAnswer": "1",
+               "startIndex": 323,
+               "endIndex" : 368
+            },
+            {
+               "text": "<p>He will get ______ glasses to help him see.<\/p>",
+               "answers": [
+                  "danger",
+                  "special",
+                  "partner",
+                  "splendid"
+               ],
+               "correctAnswer": "2",
+               "startIndex": 369,
+               "endIndex" : 456
+            }
+         ]
+      }
+   }
+}
